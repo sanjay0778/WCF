@@ -1,0 +1,7 @@
+1. Create new web applicaiton in IIS with name 'WCF_CEWS_Service'
+
+2. Copy bin folder with dll of project, .svc (service) file and web.config file to folder in C:\intenpub\wwwroot\WCF_CEWS_Service
+
+3. Now your WCF Content Enrichment service is ready. It will call an external soap service to process logic for population output managed property.
+
+4. This service is called automatically during each sharepoint search crawl.
